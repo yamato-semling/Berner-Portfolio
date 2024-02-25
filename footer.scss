@@ -1,0 +1,49 @@
+
+.footer-hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-top: 5vh;
+}
+
+.footer-img {
+  z-index: -4;
+  width: 100%;
+}
+
+.footer-content {
+  position: absolute;
+  margin: 12px;
+}
+
+.footer-text {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.footer-text p {
+  font-size: 1.4rem;
+  color: black;
+}
+
+.footer-text a {
+  font-size: 1.4rem;
+  color: black;
+}
+
+
+.socials {
+  position: absolute;
+  margin: 12px;
+  right: 0;
+  text-align: right;
+}
+
+.socials h2 {
+  font-size: 1.4rem;
+}
+
+.socials-icon a img {
+  width: 50px;
+}
