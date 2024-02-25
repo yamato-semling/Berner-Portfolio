@@ -7,7 +7,7 @@ services:
     volumes:
       - ./src:/var/www/html
     ports:
-      - 8080:80
+      - 4848
     depends_on:
       - mysql
   mysql:
