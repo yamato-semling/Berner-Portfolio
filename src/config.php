@@ -10,7 +10,7 @@ $urlRoot = ((SSL) ? 'https' : 'http') . "://" .
     ((array_key_exists('SERVER_NAME', $_SERVER)) ? $_SERVER['SERVER_NAME'] : "localhost") .
     str_replace(str_replace("\\", "/", $documentRoot), "", str_replace("\\", "/", DIR_ROOT));
 
-define("URL_ROOT", "http://localhost:8080/");
+define("URL_ROOT", "http://localhost:9090/");
 define("DIR_IMG", URL_ROOT . 'assets/img/');
 define("DIR_HAIKEI", URL_ROOT . 'assets/img/haikei/');
 define("DIR_ICON", URL_ROOT . 'assets/img/icon/');
