@@ -11,6 +11,6 @@ services:
   php:
     build: ./src/
     expose:
-      - 9000
+      - 9090
     volumes:
       - ./src/:/var/www/html/
